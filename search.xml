@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hi,Im CoLA KINg:)</title>
+      <link href="/2023/03/11/Hi-Im-CoLA-KINg/"/>
+      <url>/2023/03/11/Hi-Im-CoLA-KINg/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Hi-My-name-is-Jiale-Zhao"><a href="#Hi-My-name-is-Jiale-Zhao" class="headerlink" title="Hi, My name is Jiale Zhao."></a>Hi, My name is Jiale Zhao.</h2><p>First, Im a China man.<br>Im a junior high school student when im writing this article.</p><p>Im so exciting that i can learn lots<br>of things about program, and i love it!<br>Im sure it will be my lifelong hobby! </p><h2 id="I-code-with…"><a href="#I-code-with…" class="headerlink" title="I code with…."></a>I code with….</h2><p>I learned Python when i was a pupil, and now I learn Python, C&#x2F;C++, MongoDB, MySQL, PHP Node.js, Vue.js and so on…</p><p>I learn programming with my older brother, he is good at C++, OpenGL!<br>Maybe one day, he will done his own Game Engine!</p><p>Im also interested in game development, web app development, GUI development, and now, Im learning something about data structures and algorithms…</p><h2 id="About-the-blog-app"><a href="#About-the-blog-app" class="headerlink" title="About the blog app"></a>About the blog app</h2><p>I use hexo framework in my blog website(maybe you have found this!), It ‘s easy and fast to create a blog website!</p><h3 id="So-How-to-create"><a href="#So-How-to-create" class="headerlink" title="So,  How to create?"></a>So,  How to create?</h3><p>(Im sure you have already installed the node.js and Git!)</p><p>step 1: Install hexo framework</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>step 2: Init an app </p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm init &lt;your app name&gt;</span><br><span class="line">cd &lt;your app name&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><p>step 3: Run the server</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure><p>step 4: Visit the url <a href="http://localhost:4000/">http://localhost:4000/</a> and  check your piece!</p><p>step 5: Configure the pages<br>You can go online to find some tutorials to configure website themes, write article and more.</p><h2 id="The-next-step…"><a href="#The-next-step…" class="headerlink" title="The next step…."></a>The next step….</h2><p>I want to make a mini program for our English learning at school!</p><p>Hope you can like me， and dont forget to follow me on <a href="https://github.com/Jiale-Zhao">Github</a>!</p><p>see you again:)</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Introduction-Myself </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
