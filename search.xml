@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Mini Clock Program</title>
+      <link href="/2023/03/12/Mini-Clock-Program/"/>
+      <url>/2023/03/12/Mini-Clock-Program/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Clock-Program-Using-Python-Tkinter"><a href="#Clock-Program-Using-Python-Tkinter" class="headerlink" title="Clock Program Using Python Tkinter"></a>Clock Program Using Python Tkinter</h2><p>clock.py</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> tkinter <span class="keyword">as</span> tk</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"></span><br><span class="line">root = tk.Tk()</span><br><span class="line"></span><br><span class="line">time1 = tk.StringVar()</span><br><span class="line"><span class="comment"># 获取时间</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">gettime</span>():</span><br><span class="line">  time1.<span class="built_in">set</span>(time.strftime(<span class="string">&quot;%H:%M:%S&quot;</span>))  <span class="comment"># 获取当前时间</span></span><br><span class="line">  tk.Label(root, textvariable=time1, font=(<span class="string">&quot;Arial&quot;</span>, <span class="number">18</span>)).place(x=<span class="number">1</span>, y=<span class="number">3</span>)</span><br><span class="line">  root.after(<span class="number">1000</span>, gettime)  <span class="comment"># 每隔1s调用函数 gettime 自身获取时间</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 自定义退出</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">myquit</span>(<span class="params">*args</span>):</span><br><span class="line">  root.destroy()</span><br><span class="line"></span><br><span class="line">root.bind(<span class="string">&quot;&lt;Any-KeyPress&gt;&quot;</span>, myquit)</span><br><span class="line">gettime()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 配置root</span></span><br><span class="line">root.geometry(<span class="string">&#x27;100x35&#x27;</span>)</span><br><span class="line">root.overrideredirect(<span class="literal">True</span>) <span class="comment"># 去除边框</span></span><br><span class="line">root.attributes(<span class="string">&quot;-topmost&quot;</span>,<span class="number">1</span>) <span class="comment"># 置顶显示</span></span><br><span class="line"></span><br><span class="line">root.mainloop()</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Program </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> tkinter </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hi,Im CoLA KINg:)</title>
       <link href="/2023/03/11/Hi-Im-CoLA-KINg/"/>
       <url>/2023/03/11/Hi-Im-CoLA-KINg/</url>
